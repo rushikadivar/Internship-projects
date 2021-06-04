@@ -1,32 +1,3 @@
-// const express = require('express');
-// const app = express();
-// const http = require('http');
-// const port = 3001;
-// const io = require("socket.io")(http);
-
-// // let users = {};
-
-// app.get("/", (req, res) => {
-//   res.sendFile(__dirname + "/client/index.html");
-// });
-
-// app.get("/background-image", (req, res) => {
-//   res.sendFile(__dirname + "/client/wall.png");
-// });
-
-// app.get("/script", (req, res) => {
-//   res.sendFile(__dirname + "/client/script.js");
-// });
-
-// io.on("connect", (socekt) => {
-//     socket.on("chat-message", (msg) => {
-//         console.log(message);
-//     })
-// })
-
-// app.listen(port, () => {console.log("listening on port 3001")});
-
-
 const app = require("express")();
 const http = require("http").createServer(app);
 const io = require("socket.io")(http);

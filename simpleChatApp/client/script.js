@@ -1,19 +1,3 @@
-// // const { Socket } = require("socket.io");
-
-// let socket = io();
-
-// document.querySelector("form").addEventListener('submit', (e) => {
-//     e.preventDefault();
-
-//     let mess = document.getElementById("m");
-//     socket.emit("chat-message", mess.value);
-//     mess.value = "",
-//     mess.focus();
-//     return false;
-// });
-
-
-
 let socket = io();
 let username;
 let typing = false;
