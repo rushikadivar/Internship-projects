@@ -1,0 +1,4 @@
+# Sending mail to multiple recipient 
+I used the multer for file handling from the user side and for sending mail using the fetch api to grab the user list and send them by the use of nodemailer
+
+Here is one another problem which is not authenticated to any service hence we need to integret with this type of service because google doesn't provide directly use of the third party modules to your account or with any kind of intervene. this events are against the user account privacy policy. If the account's 2step verification has not activated and the less secure app has been selected that we can use this functionality ...    
